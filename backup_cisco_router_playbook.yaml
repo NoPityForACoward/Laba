@@ -7,8 +7,7 @@
   tasks:
    - name: DISPLAYING THE RUNNING-CONFIG
      ios_command:
-       commands:
-         - show running-config  
+       commands: show running-config  
      register: config
  
    - name: SAVE OUTPUT TO ./backups/
